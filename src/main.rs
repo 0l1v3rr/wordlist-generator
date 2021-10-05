@@ -4,7 +4,7 @@ use std::vec::Vec;
 
 fn main() -> std::io::Result<()> {
     let mut text = String::new();
-    print!("Enter words separated by semicolons: ");
+    print!("Enter the words separated by semicolons: ");
     let _ = stdout().flush();
     stdin().read_line(&mut text).expect("Please enter a correct string.");
 
